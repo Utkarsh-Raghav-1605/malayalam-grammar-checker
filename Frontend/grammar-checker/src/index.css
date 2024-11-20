@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-float {
+  animation: float 2s ease-in-out infinite;
+}
+.text-green-600 {
+  color: green;
+  font-weight: bold;
+}
+
+.text-red-600 {
+  color: red;
+  font-weight: bold;
+}
+
